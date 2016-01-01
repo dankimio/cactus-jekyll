@@ -1,0 +1,171 @@
+// Typography
+
+a, #title {
+  text-decoration: none;
+  color: #5badf0;
+  color: #5694f1;
+}
+
+#post-list {
+  a:hover, li:hover .dates {
+    text-decoration: none;
+    color: #5badf0;
+    color: #5694f1;
+  }
+}
+
+#title:hover {
+  text-decoration: none;
+  color: #5badf0;
+  color: #5694f1;
+}
+
+p a {
+  color: #5694f1;
+}
+
+// Line Height
+
+#post-body, p {
+  line-height: 1.7;
+}
+
+b, strong {
+  font-weight: 500;
+  color: #1E2025;
+}
+
+em, i {
+  font-style: italic;
+}
+
+#title {
+  display: inline-block;
+  line-height: 100%;
+  font-weight: 500;
+  font-size: 19px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.description {
+  float: right;
+  font: italic 14px/1.4em Georgia,serif;
+  color: #aaa;
+}
+
+.home {
+  h1 {
+    font-size: 30px;
+    letter-spacing: -1px;
+    color: #222;
+    font-weight: bold;
+  }
+  h2 {
+    font: italic 19px/1.3em Georgia,serif;
+    color: #bbb;
+  }
+}
+
+.post {
+  header {
+    text-align: center;
+  }
+  h1 {
+    margin-bottom: 15px;
+    color: #222;
+    font: 300 32px/1.4em $base-font-family;
+  }
+  h2 {
+    margin-bottom: 15px;
+    font: 300 24px/1.5 $base-font-family;
+    color: #111;
+    &.headline {
+      /*font: italic 22px/1.3em Georgia,serif;*/
+      font: normal 13px/1.5em $base-font-family;
+      margin: -5px 0 40px 0;
+      color: #b2b9be;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      /*margin-top: 15px;*/
+      display: inline-block;
+    }
+  }
+}
+
+#post-list h2 {
+  font: normal 17px/1.5em $base-font-family;
+  color: #aaa;
+  max-width: 400px;
+  margin-top: 2px;
+}
+
+h3, h4, h5 {
+  color: #333;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 13px;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+p.small {
+  color: #bbb;
+  font-size: 14px;
+  line-height: 1.5;
+  display: block;
+}
+
+blockquote {
+  padding-left: 15px;
+  border-left: 3px solid #eee;
+}
+
+hr {
+  display: block;
+  border: none;
+  height: 1px;
+  margin: 40px auto;
+  background: #eee;
+}
+
+span.code {
+  font-family: Menlo, Monaco, Courier;
+  background-color: #EEE;
+  font-size: 14px;
+}
+
+pre {
+  font-family: Menlo, Monaco, Courier;
+  white-space: pre-wrap;
+  /*border: 1px solid #ddd;*/
+  padding: 20px;
+  background-color: #fdfdfd;
+  /*font-size:14px;*/
+  overflow: auto;
+  border-radius: 3px;
+  background: #272b2d;
+  font-family: 'Source Code Pro',Menlo,monospace;
+  font-size: 13px;
+  line-height: 1.5em;
+  font-weight: 500;
+  color: #d0d4d7;
+}

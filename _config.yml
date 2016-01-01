@@ -1,0 +1,45 @@
+title: Your awesome title
+name: Your Name
+description: Your awesome description
+
+aboutPage: true
+
+markdown: redcarpet
+highlighter: pygments
+
+gems: [jekyll-paginate]
+paginate: 10
+
+baseurl: ""
+url: "http://yourdomain.com"
+disqus: false
+disqus_shortname: "your-disqus-shortname"
+
+sass:
+  sass_dir: assets/_sass
+
+# Details for the RSS feed generator
+author: Author name
+authorTwitter: jekyllrb
+
+permalink: /:year/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # Empty string for all files
+      type: pages
+    values:
+      layout: default
+  -
+    scope:
+      path: "" # Empty string for all files
+      type: posts
+    values:
+      layout: post
+  -
+    scope:
+      path: ""
+      type: drafts
+    values:
+      layout: post
