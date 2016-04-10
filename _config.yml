@@ -4,9 +4,6 @@ description: Your awesome description
 
 aboutPage: true
 
-markdown: redcarpet
-highlighter: pygments
-
 gems: [jekyll-paginate]
 paginate: 10
 
