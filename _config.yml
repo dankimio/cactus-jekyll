@@ -2,7 +2,7 @@ title: Your awesome title
 name: Your Name
 description: Your awesome description
 
-aboutPage: true
+about_page: true
 
 gems: [jekyll-paginate]
 paginate: 10
