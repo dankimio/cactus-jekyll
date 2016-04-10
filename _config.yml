@@ -19,8 +19,7 @@ sass:
   sass_dir: assets/_sass
 
 # Details for the RSS feed generator
-author: Author name
-authorTwitter: jekyllrb
+twitter_username: jekyllrb
 
 permalink: /:year/:title/
 
