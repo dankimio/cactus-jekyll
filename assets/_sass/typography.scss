@@ -1,13 +1,16 @@
 // Typography
 
-a, #title {
+a,
+#title {
   text-decoration: none;
   color: #5badf0;
   color: #5694f1;
 }
 
 #post-list {
-  a:hover, li:hover .dates {
+
+  a:hover,
+  li:hover .dates {
     text-decoration: none;
     color: #5badf0;
     color: #5694f1;
@@ -26,16 +29,19 @@ p a {
 
 // Line Height
 
-#post-body, p {
+#post-body,
+p {
   line-height: 1.7;
 }
 
-b, strong {
+b,
+strong {
   font-weight: 500;
   color: #1E2025;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
 }
 
@@ -50,7 +56,7 @@ em, i {
 
 .description {
   float: right;
-  font: italic 14px/1.4em Georgia,serif;
+  font: italic 14px/1.4em Georgia, serif;
   color: #aaa;
 }
 
@@ -61,8 +67,9 @@ em, i {
     color: #222;
     font-weight: bold;
   }
+
   h2 {
-    font: italic 19px/1.3em Georgia,serif;
+    font: italic 19px/1.3em Georgia, serif;
     color: #bbb;
   }
 }
@@ -71,15 +78,18 @@ em, i {
   header {
     text-align: center;
   }
+
   h1 {
     margin-bottom: 15px;
     color: #222;
     font: 300 32px/1.4em $base-font-family;
   }
+
   h2 {
     margin-bottom: 15px;
     font: 300 24px/1.5 $base-font-family;
     color: #111;
+
     &.headline {
       /*font: italic 22px/1.3em Georgia,serif;*/
       font: normal 13px/1.5em $base-font-family;
@@ -101,7 +111,9 @@ em, i {
   margin-top: 2px;
 }
 
-h3, h4, h5 {
+h3,
+h4,
+h5 {
   color: #333;
 }
 
@@ -163,7 +175,7 @@ pre {
   overflow: auto;
   border-radius: 3px;
   background: #272b2d;
-  font-family: 'Source Code Pro',Menlo,monospace;
+  font-family: 'Source Code Pro', Menlo, monospace;
   font-size: 13px;
   line-height: 1.5em;
   font-weight: 500;

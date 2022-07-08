@@ -1,10 +1,12 @@
 // Post list
 
-#post-list, #archive-list {
+#post-list,
+#archive-list {
   margin-top: 20px;
 }
 
-#post-list li, #archive-list li {
+#post-list li,
+#archive-list li {
   list-style-type: none;
 }
 
@@ -13,16 +15,19 @@
     &:last-child {
       margin-bottom: 0;
     }
+
     + li {
       padding-top: 20px;
       border-top: 1px solid #eee;
     }
   }
+
   a {
     color: #333;
     display: block;
     font: bold 19px/1.7 $base-font-family;
   }
+
   .dates {
     float: right;
     position: relative;
@@ -45,11 +50,13 @@
   border-radius: 4px;
   padding: 3px 10px 6px;
   box-shadow: 0 0 0 1px hsla(207, 83%, 80%, 1);
+
   &:hover {
     background: #5694f1;
     color: #fff;
     box-shadow: 0 0 0 1px #5694f1;
   }
+
   span {
     position: relative;
     top: 0;
@@ -84,15 +91,18 @@
   margin-top: 40px;
   color: #444;
   border-bottom: 1px solid #eee;
+
   div {
     span {
       color: #aaa;
       font-weight: 500;
       display: block;
+
       &.dark {
         color: #1E2025;
       }
     }
+
     margin: 0 25px 0 0;
     float: left;
   }
@@ -101,6 +111,7 @@
 #sharing {
   float: right;
   margin: -2px;
+
   a {
     font-size: 20px;
     font-size: 23px;
@@ -109,6 +120,7 @@
     color: #d4d4d4;
     display: inline-block;
     vertical-align: middle;
+
     &:hover {
       /*color: #444;*/
       opacity: 0.8;
@@ -126,6 +138,7 @@
   font-size: 13px;
   font-weight: 500;
   margin-top: 40px;
+
   span {
     -webkit-transition: all 0.1s linear;
     -moz-transition: all 0.1s linear;
@@ -133,25 +146,32 @@
     -o-transition: all 0.1s linear;
     transition: all 0.1s linear;
     position: relative;
+
     &.prev {
       float: left;
     }
+
     &.next {
       float: right;
     }
+
     .arrow {
       position: relative;
       padding: 1px;
     }
+
     &.prev:hover .arrow {
       left: -4px;
     }
+
     &.next:hover .arrow {
       right: -4px;
     }
+
     &.prev:hover {
       left: -3px;
     }
+
     &.next:hover {
       right: -3px;
     }
@@ -178,11 +198,13 @@ h2.month {
   li:last-child {
     margin-bottom: 0;
   }
+
   a {
     display: block;
     font: bold 17px/1.7 $base-font-family;
     color: #333;
   }
+
   .dates {
     float: right;
     position: relative;
@@ -190,8 +212,11 @@ h2.month {
     font: 300 17px/1.7 $base-font-family;
     color: #bbb;
   }
+
   li {
-    a:hover, &:hover .dates {
+
+    a:hover,
+    &:hover .dates {
       color: #5694f1;
     }
   }
@@ -212,13 +237,16 @@ h2.month {
     font: 400 20px $base-font-family;
     margin-bottom: 30px;
   }
+
   a {
     font: 400 16px/1.6 $base-font-family;
     color: #5694f1;
+
     &:hover {
       opacity: 0.8;
     }
   }
+
   .dates {
     font: 300 16px/1.6 $base-font-family;
   }
@@ -228,9 +256,11 @@ h2.month {
   &.facebook {
     background: #4361b3;
   }
+
   &.twitter {
     background: #4fafed;
   }
+
   font-size: 20px;
   font-size: 13px;
   font-weight: bold;
